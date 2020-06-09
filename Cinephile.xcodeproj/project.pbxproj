@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25A912EA248F69210062D638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A912E9248F69210062D638 /* AppDelegate.swift */; };
+		25A912EC248F69210062D638 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A912EB248F69210062D638 /* ContentView.swift */; };
+		25A912EE248F69220062D638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A912ED248F69220062D638 /* Assets.xcassets */; };
+		25A912F1248F69220062D638 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A912F0248F69220062D638 /* Preview Assets.xcassets */; };
+		25A912F4248F69220062D638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A912F2248F69220062D638 /* LaunchScreen.storyboard */; };
+		25A912FF248F69220062D638 /* CinephileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A912FE248F69220062D638 /* CinephileTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25A912FB248F69220062D638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25A912DE248F69210062D638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25A912E5248F69210062D638;
+			remoteInfo = Cinephile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25A912E6248F69210062D638 /* Cinephile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinephile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A912E9248F69210062D638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25A912EB248F69210062D638 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25A912ED248F69220062D638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25A912F0248F69220062D638 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25A912F3248F69220062D638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25A912F5248F69220062D638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25A912FA248F69220062D638 /* CinephileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinephileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A912FE248F69220062D638 /* CinephileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinephileTests.swift; sourceTree = "<group>"; };
+		25A91300248F69220062D638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25A912E3248F69210062D638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A912F7248F69220062D638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25A912DD248F69210062D638 = {
+			isa = PBXGroup;
+			children = (
+				25A912E8248F69210062D638 /* Cinephile */,
+				25A912FD248F69220062D638 /* CinephileTests */,
+				25A912E7248F69210062D638 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25A912E7248F69210062D638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25A912E6248F69210062D638 /* Cinephile.app */,
+				25A912FA248F69220062D638 /* CinephileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25A912E8248F69210062D638 /* Cinephile */ = {
+			isa = PBXGroup;
+			children = (
+				25A912E9248F69210062D638 /* AppDelegate.swift */,
+				25A912EB248F69210062D638 /* ContentView.swift */,
+				25A912ED248F69220062D638 /* Assets.xcassets */,
+				25A912F2248F69220062D638 /* LaunchScreen.storyboard */,
+				25A912F5248F69220062D638 /* Info.plist */,
+				25A912EF248F69220062D638 /* Preview Content */,
+			);
+			path = Cinephile;
+			sourceTree = "<group>";
+		};
+		25A912EF248F69220062D638 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25A912F0248F69220062D638 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25A912FD248F69220062D638 /* CinephileTests */ = {
+			isa = PBXGroup;
+			children = (
+				25A912FE248F69220062D638 /* CinephileTests.swift */,
+				25A91300248F69220062D638 /* Info.plist */,
+			);
+			path = CinephileTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25A912E5248F69210062D638 /* Cinephile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A91303248F69220062D638 /* Build configuration list for PBXNativeTarget "Cinephile" */;
+			buildPhases = (
+				25A912E2248F69210062D638 /* Sources */,
+				25A912E3248F69210062D638 /* Frameworks */,
+				25A912E4248F69210062D638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cinephile;
+			productName = Cinephile;
+			productReference = 25A912E6248F69210062D638 /* Cinephile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25A912F9248F69220062D638 /* CinephileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A91306248F69220062D638 /* Build configuration list for PBXNativeTarget "CinephileTests" */;
+			buildPhases = (
+				25A912F6248F69220062D638 /* Sources */,
+				25A912F7248F69220062D638 /* Frameworks */,
+				25A912F8248F69220062D638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25A912FC248F69220062D638 /* PBXTargetDependency */,
+			);
+			name = CinephileTests;
+			productName = CinephileTests;
+			productReference = 25A912FA248F69220062D638 /* CinephileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25A912DE248F69210062D638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Francis Breidenbach";
+				TargetAttributes = {
+					25A912E5248F69210062D638 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					25A912F9248F69220062D638 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 25A912E5248F69210062D638;
+					};
+				};
+			};
+			buildConfigurationList = 25A912E1248F69210062D638 /* Build configuration list for PBXProject "Cinephile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25A912DD248F69210062D638;
+			productRefGroup = 25A912E7248F69210062D638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25A912E5248F69210062D638 /* Cinephile */,
+				25A912F9248F69220062D638 /* CinephileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25A912E4248F69210062D638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A912F4248F69220062D638 /* LaunchScreen.storyboard in Resources */,
+				25A912F1248F69220062D638 /* Preview Assets.xcassets in Resources */,
+				25A912EE248F69220062D638 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A912F8248F69220062D638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25A912E2248F69210062D638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A912EC248F69210062D638 /* ContentView.swift in Sources */,
+				25A912EA248F69210062D638 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A912F6248F69220062D638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A912FF248F69220062D638 /* CinephileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25A912FC248F69220062D638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25A912E5248F69210062D638 /* Cinephile */;
+			targetProxy = 25A912FB248F69220062D638 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25A912F2248F69220062D638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A912F3248F69220062D638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25A91301248F69220062D638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		25A91302248F69220062D638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25A91304248F69220062D638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cinephile/Preview Content\"";
+				DEVELOPMENT_TEAM = WA3KPNE52J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Cinephile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbreidenbach.Cinephile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		25A91305248F69220062D638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cinephile/Preview Content\"";
+				DEVELOPMENT_TEAM = WA3KPNE52J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Cinephile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbreidenbach.Cinephile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		25A91307248F69220062D638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA3KPNE52J;
+				INFOPLIST_FILE = CinephileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbreidenbach.CinephileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinephile.app/Cinephile";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		25A91308248F69220062D638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA3KPNE52J;
+				INFOPLIST_FILE = CinephileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbreidenbach.CinephileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinephile.app/Cinephile";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25A912E1248F69210062D638 /* Build configuration list for PBXProject "Cinephile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A91301248F69220062D638 /* Debug */,
+				25A91302248F69220062D638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A91303248F69220062D638 /* Build configuration list for PBXNativeTarget "Cinephile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A91304248F69220062D638 /* Debug */,
+				25A91305248F69220062D638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A91306248F69220062D638 /* Build configuration list for PBXNativeTarget "CinephileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A91307248F69220062D638 /* Debug */,
+				25A91308248F69220062D638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25A912DE248F69210062D638 /* Project object */;
+}
