@@ -77,12 +77,11 @@
 		25A912E8248F69210062D638 /* Cinephile */ = {
 			isa = PBXGroup;
 			children = (
-				25A912E9248F69210062D638 /* AppDelegate.swift */,
-				25A912EB248F69210062D638 /* ContentView.swift */,
-				25A912ED248F69220062D638 /* Assets.xcassets */,
-				25A912F2248F69220062D638 /* LaunchScreen.storyboard */,
 				25A912F5248F69220062D638 /* Info.plist */,
+				25A91309248F69400062D638 /* App */,
+				25A9130A248F69470062D638 /* UI */,
 				25A912EF248F69220062D638 /* Preview Content */,
+				25A912ED248F69220062D638 /* Assets.xcassets */,
 			);
 			path = Cinephile;
 			sourceTree = "<group>";
@@ -102,6 +101,23 @@
 				25A91300248F69220062D638 /* Info.plist */,
 			);
 			path = CinephileTests;
+			sourceTree = "<group>";
+		};
+		25A91309248F69400062D638 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				25A912E9248F69210062D638 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		25A9130A248F69470062D638 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				25A912EB248F69210062D638 /* ContentView.swift */,
+				25A912F2248F69220062D638 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
