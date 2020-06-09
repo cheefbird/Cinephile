@@ -1,0 +1,16 @@
+PODS:
+  - SwifterSwiftUI (0.4.1)
+
+DEPENDENCIES:
+  - SwifterSwiftUI
+
+SPEC REPOS:
+  trunk:
+    - SwifterSwiftUI
+
+SPEC CHECKSUMS:
+  SwifterSwiftUI: 8e413952313fdbb4f9f707079243aef7abfde932
+
+PODFILE CHECKSUM: 8345703a4e3984004f4dd95cfc53ecb63785acd0
+
+COCOAPODS: 1.9.1
