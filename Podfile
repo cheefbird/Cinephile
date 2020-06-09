@@ -6,7 +6,7 @@ target 'Cinephile' do
   use_frameworks!
 
   # Pods for Cinephile
-    pod 'SwifterSwiftUI'
+    pod 'ASCollectionView-SwiftUI'
 
 
   target 'CinephileTests' do

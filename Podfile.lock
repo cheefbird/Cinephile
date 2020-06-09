@@ -1,16 +1,16 @@
 PODS:
-  - SwifterSwiftUI (0.4.1)
+  - ASCollectionView-SwiftUI (1.4.1)
 
 DEPENDENCIES:
-  - SwifterSwiftUI
+  - ASCollectionView-SwiftUI
 
 SPEC REPOS:
   trunk:
-    - SwifterSwiftUI
+    - ASCollectionView-SwiftUI
 
 SPEC CHECKSUMS:
-  SwifterSwiftUI: 8e413952313fdbb4f9f707079243aef7abfde932
+  ASCollectionView-SwiftUI: f55fbd56350ec3b612855521cd952659b9a7e67d
 
-PODFILE CHECKSUM: 8345703a4e3984004f4dd95cfc53ecb63785acd0
+PODFILE CHECKSUM: a8b330937fdce0e2cf279cbe7a2fe64f9a529562
 
 COCOAPODS: 1.9.1
